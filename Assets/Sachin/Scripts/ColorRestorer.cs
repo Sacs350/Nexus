@@ -22,6 +22,7 @@ public class ColorRestorer : MonoBehaviour
         StartCoroutine(FadeToColor());
     }
 
+
     System.Collections.IEnumerator FadeToColor()
     {
         float timer = 0f;
